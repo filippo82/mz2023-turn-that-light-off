@@ -35,7 +35,8 @@ of [Make Zurich 2023](https://makezurich.ch/).
 * [x] Install Datasette
 * [x] Visualize `mqtt.db` SQLite database with Datasette
 * [x] Develop `subscribe_to_ttn.py` Python script to subscribed to the MQTT TTN integration.
-* [ ] Develop `subscribe_to_ttn.py` Python script to store the received data to a local SQLite database.
+* [x] Develop `subscribe_to_ttn.py` Python script to store the received data to a local SQLite database.
+* [x] Develop `publish_to_aio.py` Python script to read data from a local SQLite database.
 * [x] Develop `publish_to_aio.py` Python script to publish data to the Adafruit IO MQTT broker.
 * [ ] Dockerize the two Python scripts above.
 
