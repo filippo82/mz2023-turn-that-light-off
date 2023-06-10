@@ -5,26 +5,25 @@ of [Make Zurich 2023](https://makezurich.ch/).
 
 ## The idea
 
-* place light and motion sensors in a room
-* if the light sensor detects that the light is on but the motion sensor detects that nobody is in the room, then a message is shown on a display
-* you then have one minute of time to turn that light off
-* if you turn it off within the agreed time window (default to one minute), then you get a point in a yet to be defined leaderbord
-* once you get ten minutes, then you can buy yourself an icecream!
+* Place light and motion sensors in a room.
+  * Currently only the light sensor has been implemented.
+* If the light sensor detects that the light is on but the motion sensor detects that nobody is in the room, then either a message is shown on a display ("Turn the light off!") or another visual message could be shown to the user, such as a red LED turning on.
+* The user then hae one minute of time to turn that light off.
+* If the user turns it off within the agreed time window (default to one minute), then they get a point in a yet to be defined leader board.
+* Once the user get ten points, then they can buy themselves an ice cream!
 
 ## Tools
 
+* [Raspberry Pi Pico W](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html)
+  * The "blue" Raspberry Pi Pico W sends **uplink** ⬆️ messages to the TTN
+  * The "purple" Raspberry Pi Pico W receives **downlink** ⬇️ messages from Adafruit IO
 * [CircuitPython](https://circuitpython.org/)
 * [The Things Network (TTN)](https://www.thethingsnetwork.org/)
 * [Adafruit IO](https://io.adafruit.com/)
 * [seedstudio Grove](https://wiki.seeedstudio.com/Grove_System/)
-* [Datasette]()
+* [Datasette](https://datasette.io/)
 
 ## Tasks
-
-**NOTE**
-
-* The "blue" Raspberry Pi Pico W sends **uplink** ⬆️ messages to the TTN
-* The "purple" Raspberry Pi Pico W receives **downlink** ⬇️ messages from Adafruit IO
 
 * [x] Set up "blue" Raspberry Pi Pico W with light sensor.
 * [x] Set up "blue" Raspberry Pi Pico W to send uplink data to the TTN.
