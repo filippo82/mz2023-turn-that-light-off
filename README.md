@@ -13,8 +13,15 @@ of [Make Zurich 2023](https://makezurich.ch/).
 
 ## Tools
 
-TBD
+* [CircuitPython](https://circuitpython.org/)
+* [The Things Network (TTN)](https://www.thethingsnetwork.org/)
+* [Adafruit IO](https://io.adafruit.com/)
+* [seedstudio Grove](https://wiki.seeedstudio.com/Grove_System/)
 
-## Plan
+## Tasks
 
-TBD
+* [x] Set up "blue" Raspberry Pi Pico W with light sensor.
+* [x] Set up "blue" Raspberry Pi Pico W to send uplink data to the TTN.
+* [ ] Set up "blue" Raspberry Pi Pico W to show the light sensor measurements.
+* [ ] TBD
+* [ ] TBD
