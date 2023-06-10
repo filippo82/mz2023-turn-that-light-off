@@ -5,12 +5,12 @@ of [Make Zurich 2023](https://makezurich.ch/).
 
 ## The idea
 
-* Place light and motion sensors in a room.
+* Place light and motion sensors in a room 🛋️
   * Currently only the light sensor has been implemented.
-* If the light sensor detects that the light is on but the motion sensor detects that nobody is in the room, then either a message is shown on a display ("Turn the light off!") or another visual message could be shown to the user, such as a red LED turning on.
-* The user then hae one minute of time to turn that light off.
-* If the user turns it off within the agreed time window (default to one minute), then they get a point in a yet to be defined leader board.
-* Once the user get ten points, then they can buy themselves an ice cream!
+* If the light sensor detects that the light is on but the motion sensor detects that nobody is in the room, then either a message is shown on a display ("Turn the light off!") or another visual message could be shown to the user, such as a red LED turning on 🚨
+* The user then hae one minute of time to turn that light off 💡
+* If the user turns it off within the agreed time window (default to one minute), then they get a point in a yet to be defined leader board 📈
+* Once the user get ten points, then they can buy themselves an ice cream 🍦
 
 ## Tools
 
